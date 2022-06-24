@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/w2.css">
+    <link rel="stylesheet" type="text/css" href="../css/element.css">
+    <link rel="stylesheet" type="text/css" href="../css/bus-way.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <!-- <link rel="stylesheet" href="../css/all.css" /> -->
+    <link rel="stylesheet" href="../css/breathe.css" />
+
+    <title>期末作業</title>
+
+</head>
+
+<body>
+    <div class="top sticky-top">
+        <header >
+            <div class="topper"></div>
+            <div class="right-info">
+                <div class="right-top  bus_num center">
+                    <p id="go"></p>
+                </div>
+                <div class="bg-buttom">
+                    <button id="gobtn" type="button" class="bg col go-buttom btn btn-success"></button>
+                    <button id="backbtn" type="button" class="bg col back-buttom btn btn-outline-success"></button>
+                </div>
+            </div>
+            <div class="left expand-lg">
+                <div class="left-row">
+                    <img src="../img/favourite.png" class="left-submit left-div">
+                    <div class="center input-group mb-3 left-button">
+                        <input type="text" id="searchchange" class="form-control  left-div left-text" placeholder="查詢之公車路線">
+                        <!-- <button type="button" class="input-group-text col-4"><img class="middle-submit" src="../img/submit.png"></button> -->
+                        <img src="../img/submit.png" id="change" class="col-4 left-submit left-div">
+                    </div>
+                </div>
+                <div id="fav"></div>
+            </div>
+            
+
+            </div>
+        </header>
+
+
+    </div>
+    <!-- <div class="bus-all"> -->
+
+    <!-- <div class="right"> -->
+
+    <ul id="bus-way-list" class="testright"></ul>
+
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div class="down"> -->
+    <!-- </div> -->
+
+</body>
+
+<script src="../js/way.js"></script>
+
+</html>
